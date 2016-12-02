@@ -1,3 +1,8 @@
-<h1>
+<h3>
   {{title}}
-</h1>
+</h3>
+
+<div>
+  <app-inline-edit [(ngModel)]="name" label="Name" [required]="true" type="text">
+  </app-inline-edit>
+</div>

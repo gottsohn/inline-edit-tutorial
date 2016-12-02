@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { InlineEditComponent } from './components/custom/inline-edit/inline-edit.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InlineEditComponent
   ],
   imports: [
     BrowserModule,
